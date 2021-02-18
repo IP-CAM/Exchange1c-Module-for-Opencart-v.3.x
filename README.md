@@ -1,65 +1,66 @@
 
-   #  Модуль opencart2-exchange1c от автора KirilLoveVE адаптирован мной для OPENCART 3.x
+# The opencart2-exchange1c module from the author KirilLoveVE was adapted by me for OPENCART 3.x
+Source: https://github.com/KirilLoveVE
    
-   Источник :  https://github.com/KirilLoveVE 
-   
 
-Версия 1.6.4.7(ver.2_BagFix_SEO 1 + gmp-mod_v6)
-# Модуль обмена с 1С v8.x для Opencart 3.x
-* Обрабатывает XML от 2.04 до 2.10
+Version 1.6.4.7 (ver.2_BagFix_SEO 1 + gmp-mod_v6)
+# Exchange module with 1C v8.x for Opencart 3.x
+* Handles XML 2.04 to 2.10
 
-# Внимание!
-Модуль на стадии тестирования, т.е. 100% гарантии работоспособности нет.
-Но уже работает на моем сайте в том функционале который тут описан.
+# Attention!
+The module is under testing, i.e. There is no 100% guarantee of performance.
+But it already works on my site in the functionality that is described here.
 
-Модуль обмена с 1С v8.x для Opencart 3.x
-Обрабатывает XML от 2.04 до 2.08
-Версия XML 2.09 - 2.10 теоретически работает, но могут быть ошибки, пишите исправим
-Внимание!
-Модуль на стадии тестирования, т.е. 100% гарантии работоспособности нет. Но уже работает на моем сайте в том функционале который тут описан.
-# Функционал
-* Загрузка на сайт групп, товаров (свойств), картинок
-* Загрузка характеристик 1С в опции без свойств
-* Загрузка картинок характеристик на сайт
-* Загрузка цен в скидки и акции
-* Загрузка с сайта заказов, 
-* Обновление заказов на сайте при изменении их в 1С
-* Двусторонний обмен статусами заказов
+Exchange module with 1C v8.x for Opencart 3.x
+Handles XML 2.04 to 2.08
+XML version 2.09 - 2.10 works theoretically, but there may be errors, write we'll fix it
+Attention!
+The module is under testing, i.e. There is no 100% guarantee of performance. But it already works on my site in the functionality that is described here.
+# Functionality
+* Uploading groups, goods (properties), pictures to the site
+* Loading characteristics 1C in options without properties
+* Uploading pictures of characteristics to the site
+* Uploading prices to discounts and promotions
+* Download from the order site,
+* Updating orders on the site when changing them in 1C
+* Two-way exchange of order statuses
 
-Функционал
-Загрузка на сайт групп, товаров (свойств), картинок
-Загрузка характеристик 1С в опции
-Загрузка картинок характеристик на сайт (в проекте, при выборе варианта опций должна менятся картинка)
-Загрузка остатков по складам и без
-Загрузка цен характеристик 1С, без характеристик
-Загрузка цен в скидки
-Загрузка единиц измерений товара (в разработке еще пока)
-Загрузка цен в акции, а также при обнулении или удаления акции - отключаются также на сайте (если нет характеристик в 1С на этом товаре)
-Загрузка с сайта заказов, обновление на сайте
-Обновление заказов на сайте и обновление стоимости доставки, если она была изменена в 1С
-Обмен статусами заказов
-Поддержка CMS
-# Поддержка CMS
-* OpenCart 3.х
+Functional
+Uploading groups, goods (properties), pictures to the site
+Loading 1C characteristics in option
+Uploading pictures of characteristics to the site (in the project, when choosing an option, the picture should change)
+Loading balances in warehouses and without
+Loading the prices of 1C characteristics, without characteristics
+Loading prices into discounts
+Loading of units of measurements of goods (in development yet)
+Loading prices in promotions, as well as when resetting or deleting a promotion, are also disabled on the site (if there are no characteristics in 1C for this product)
+Download from the order site, update on the site
+Updating orders on the site and updating the cost of delivery, if it was changed in 1C
+Exchange of order statuses
+CMS support
+
+# CMS support
+* OpenCart 3.x
 
 # PHP
-* 7.х
+* 7.x
 
-# Поддержка 1С
-* Управление торговлей 10 (!)
-* Управление торговлей 11 (!)
-* Управление торговлей для Украины 2.3 (!)
-* Управление нашей фирмой 1.6
+# Support 1C
+* Trade management 10 (!)
+* Trade management 11 (!)
+* Trade Management for Ukraine 2.3 (!)
+* Management of our firm 1.6
 
 
-Поддержка 1С
-Управление торговлей 10
-Управление торговлей 11
-Управление торговлей для Украины 2.3
-Управление нашей фирмой 1.6
-Спасибо тем кто помогал в разработке и исправления ошибок:
+1C support
+Trade Management 10
+Trade Management 11
+Trade Management for Ukraine 2.3
+Management of our company 1.6
+Thanks to those who helped in the development and bug fixes:
 
-Sonic_vlad (Россия)
-Роман Ткач (Мариуполь, Украина)
-1. Sonic_vlad (Россия)
-2. Роман Ткач (Мариуполь, Украина)
+Sonic_vlad (Russia)
+Roman Tkach (Mariupol, Ukraine)
+1. Sonic_vlad (Russia)
+2. Roman Tkach (Mariupol, Ukraine) 
+
